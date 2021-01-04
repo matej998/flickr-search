@@ -2,7 +2,7 @@ $(document).ready(function(){
   $("button").click(function(){
     $("button").removeClass("selected");
     $(this).addClass("selected");
-    var url = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+    var url = "https://www.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
     var animal = $(this).text();
     var options = {
       tags : animal,
